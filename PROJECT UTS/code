@@ -27,7 +27,35 @@ class StackBrowser:
             for nomor, url in enumerate(self.stack, 1):
                 print(f"{nomor}. {url}")
         else:
-            print("Riwayat masih bersih.")
+            print("Riwayat masih bersih.") 
+browser= StackBrowser()
+
+print("==================================")
+print(" SIMULASI BROWSER DENGAN STACK ")
+print("==================================")
+
+while True:
+print(f"\n Sekarang di: {browser.lihat_halaman_sekarang()}")
+print("----------------------------------")
+print("PILIHAN:")
+print("1. Ketik Nama Web (Contoh: google.com)")
+print("2. Ketik 'back' untuk kembali")
+print("3. Ketik 'riwayat' untuk lihat semua")
+print("4. Ketik 'exit' untuk keluar")
+
+pilihan = input("\nMasukkan perintah: ").lower().strip()
+
+if pilihan == 'exit':
+print("Sistem dimatikan. Terima kasih!")
+break
+elif pilihan == 'back':
+browser.klik_back()
+elif pilihan == 'riwayat':
+browser.tampilkan_riwayat()
+elif pilihan == "":
+print(" Jangan dikosongkan, masukkan perintah!")
+else:
+browser.buka_halaman(pilihan)
 
 
 
