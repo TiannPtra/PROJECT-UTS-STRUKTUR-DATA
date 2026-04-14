@@ -1,0 +1,38 @@
+class StackBrowser:
+    def __init__(self):
+        self.stack = []
+
+    def is_empty(self):
+        return len(self.stack) == 0
+
+    def buka_halaman(self, url):
+        self.stack.append(url)
+        print(f"\n Berhasil membuka: {url}")
+
+    def klik_back(self):
+        if not self.is_empty():
+            halaman_dibuang = self.stack.pop()
+            print(f"\n Back: Keluar dari '{halaman_dibuang}'")
+        else:
+            print("\n Gagal: Tidak ada riwayat untuk kembali.")
+
+    def lihat_halaman_sekarang(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        return "Kosong (Halaman Awal)"
+
+    def tampilkan_riwayat(self):
+        print("\n--- RIWAYAT JELAJAH (Dari Awal ke Akhir) ---")
+        if not self.is_empty():
+            for nomor, url in enumerate(self.stack, 1):
+                print(f"{nomor}. {url}")
+        else:
+            print("Riwayat masih bersih.")
+
+
+
+
+
+
+
+          
