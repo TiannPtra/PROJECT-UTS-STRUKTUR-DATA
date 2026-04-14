@@ -28,6 +28,7 @@ class StackBrowser:
                 print(f"{nomor}. {url}")
         else:
             print("Riwayat masih bersih.") 
+
 browser= StackBrowser()
 
 print("==================================")
