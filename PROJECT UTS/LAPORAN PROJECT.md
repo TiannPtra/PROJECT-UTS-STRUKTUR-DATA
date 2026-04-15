@@ -59,7 +59,7 @@ Dalam Python, Array diimplementasikan menggunakan List. Pada kode ini, Array did
 <img width="419" height="105" alt="Screenshot 2026-04-15 203005" src="https://github.com/user-attachments/assets/97697a31-94ee-4181-964a-11ee8da19388" />
 
 
-Operasi Push adalah proses menambahkan data ke puncak tumpukan. Dalam kode kamu, ini diterapkan pada fungsi buka_halaman(url).
+Operasi Push adalah proses menambahkan data ke puncak tumpukan. Dalam kode ini, ini diterapkan pada fungsi buka_halaman(url).
 Logika: Menggunakan perintah self.stack.append(url).
 Cara Kerja: Data baru (URL) dimasukkan ke indeks terakhir Array, sehingga otomatis menjadi elemen teratas yang akan diakses pertama kali saat proses kembali (back).
 
