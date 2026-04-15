@@ -19,8 +19,8 @@
 3. KONSEP LIFO
    LIFO (Last In, First Out) adalah suatu metode yang mengasumsikan bahwa data yang terakhir masuk ke dalam stack akan dianggap sebagai yang pertama kali keluar. Dalam program yang kami buat, kami menggunakan konsep ini, jadi halaman website terakhir yang diakses oleh pengguna akan dianggap sebagai halaman pertama yang akan dihapus jika pengguna memberikan perintah back.
 
-4.implementasi array
-    Program ini mengimplementasikan Array (Python List) sebagai fondasi struktur data Stack dengan prinsip Last In First Out (LIFO). Array bertindak sebagai wadah linear dinamis di mana operasi Push dijalankan melalui fungsi .append untuk menambah data ke indeks terakhir (paling atas). Operasi Pop menggunakan fungsi .pop untuk mengambil sekaligus menghapus elemen terakhir saat fitur Back dipanggil. Sementara itu, operasi Peek diterapkan menggunakan indeks guna mengakses data teratas tanpa mengubah struktur tumpukan. Penggunaan Array menjamin efisiensi memori dan kecepatan akses optimal dalam mengelola riwayat penjelajahan.
+4. implementasi array
+   Program ini mengimplementasikan Array (Python List) sebagai fondasi struktur data Stack dengan prinsip Last In First Out (LIFO). Array bertindak sebagai wadah linear dinamis di mana operasi Push dijalankan melalui fungsi .append untuk menambah data ke indeks terakhir (paling atas). Operasi Pop menggunakan fungsi .pop untuk mengambil sekaligus menghapus elemen terakhir saat fitur Back dipanggil. Sementara itu, operasi Peek diterapkan menggunakan indeks guna mengakses data teratas tanpa mengubah struktur tumpukan. Penggunaan Array menjamin efisiensi memori dan kecepatan akses optimal dalam mengelola riwayat penjelajahan.
 
 # SUMBER ILMIAH
 Amaylia, S., Setiabudi, V. A., Alvianino, R., Saputra, R. N., Wardhani, H. K., & Suroni, A. (2025). Application of Stack Data Structure in Application Development. State University of Surabaya, Indonesia.
