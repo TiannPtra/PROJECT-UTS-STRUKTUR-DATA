@@ -44,35 +44,37 @@ Setelah setiap proses dijalankan, alur akan kembali ke tampilan halaman saat ini
 # IMPLEMENTASI
 
 -ARRAY
+
 <img width="401" height="96" alt="Screenshot 2026-04-15 201337" src="https://github.com/user-attachments/assets/e6ff56fa-8ba4-4b90-a48f-7464f1970c6c" />
 Dalam Python, Array diimplementasikan menggunakan List. Pada kode ini, Array didefinisikan di dalam konstruktor sebagai self.stack = []. Ini berfungsi sebagai wadah linear yang menyimpan data secara berurutan. Semua operasi Stack dilakukan pada ujung akhir (indeks terakhir) dari Array ini.
 
 -PUSH
+
 <img width="419" height="105" alt="Screenshot 2026-04-15 203005" src="https://github.com/user-attachments/assets/97697a31-94ee-4181-964a-11ee8da19388" />
 Operasi Push adalah proses menambahkan data ke puncak tumpukan. Dalam kode kamu, ini diterapkan pada fungsi buka_halaman(url).
-
 Logika: Menggunakan perintah self.stack.append(url).
-
 Cara Kerja: Data baru (URL) dimasukkan ke indeks terakhir Array, sehingga otomatis menjadi elemen teratas yang akan diakses pertama kali saat proses kembali (back).
 
 -POP
+
 <img width="625" height="180" alt="Screenshot 2026-04-15 203238" src="https://github.com/user-attachments/assets/0b6a8dec-c60c-4ecb-8ab2-4ee96e900973" />
+
 Operasi Pop adalah proses mengambil sekaligus menghapus data dari puncak tumpukan. Ini diterapkan pada fungsi klik_back().
-
 Logika: Menggunakan perintah self.stack.pop().
-
 Cara Kerja: Program mengambil elemen di indeks terakhir Array dan menghapusnya dari memori tumpukan. Hal ini sesuai dengan prinsip LIFO (Last In First Out), di mana halaman terakhir yang dibuka adalah yang pertama kali ditutup.
 
 -PEEK
+
 <img width="345" height="134" alt="Screenshot 2026-04-15 203522" src="https://github.com/user-attachments/assets/27385a56-9b41-41cf-920d-f91ea2dad30f" />
+
 Operasi Peek digunakan untuk melihat data teratas tanpa mengubah atau menghapus isi tumpukan. Ini diterapkan pada fungsi lihat_halaman_sekarang().
-
 Logika: Menggunakan akses indeks self.stack[-1].
-
 Cara Kerja: Indeks [-1] merujuk pada elemen terakhir dalam Array. Fungsi ini hanya mengembalikan nilai tersebut agar user tahu posisi halaman saat ini tanpa merusak riwayat yang ada.
 
 -DISPLAY
+
 <img width="678" height="880" alt="Screenshot 2026-04-15 204012" src="https://github.com/user-attachments/assets/ab35b9c6-7bcd-4efa-aee9-c153e29622fb" />
+
 Penerapan Display pada kode tersebut berfungsi untuk memvisualisasikan seluruh isi Array riwayat secara transparan kepada pengguna. Operasi ini bekerja dengan melakukan Iterasi atau perulangan melalui fungsi enumerate(self.stack, 1), yang secara sistematis menelusuri elemen dari indeks awal hingga indeks terakhir (elemen teratas). Dalam laporan, bagian ini menunjukkan kemampuan program untuk membongkar tumpukan data dan menyajikannya dalam format daftar bernomor tanpa mengubah struktur asli Stack tersebut. Hal ini membuktikan bahwa meskipun Stack adalah struktur data akses terbatas (LIFO), seluruh elemen di dalam Array tetap dapat diakses untuk keperluan pelaporan atau pemeriksaan riwayat secara kronologis.
 
 
