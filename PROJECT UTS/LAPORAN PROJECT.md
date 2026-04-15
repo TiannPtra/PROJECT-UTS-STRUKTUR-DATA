@@ -33,5 +33,13 @@ Rahmatuloh, M., Kalyana, A. F., & Kusumah, P. P. (2024). Sistem ERP Modul Persed
 
 <img width="857" height="1180" alt="ChatGPT Image 15 Apr 2026, 19 55 16" src="https://github.com/user-attachments/assets/adae17cc-ed72-4a62-b7cb-2e4cb3784665" />
 
+# ALUR
+
+Flowchart dimulai dari proses “Mulai”, kemudian sistem menampilkan halaman saat ini. Setelah itu, pengguna diminta untuk memasukkan perintah pada bagian input (Masukkan Perintah). Pada tahap ini terjadi percabangan (decision) berdasarkan perintah yang dimasukkan, yaitu push, pop, peek, atau exit.
+
+Jika pengguna memilih push, maka sistem akan membuka halaman baru dan menambahkan URL ke dalam stack. Jika memilih pop, sistem akan menghapus halaman teratas dari stack (kembali ke halaman sebelumnya). Jika memilih peek, sistem akan menampilkan halaman yang sedang aktif (halaman teratas pada stack). Jika pengguna memasukkan perintah lain yang tidak valid, maka sistem akan menampilkan pesan error dan meminta input ulang.
+
+Setelah setiap proses dijalankan, alur akan kembali ke tampilan halaman saat ini dan terus berulang sampai pengguna memilih exit, yang akan mengakhiri program dan menuju ke proses “Selesai”
+
 
 
