@@ -29,3 +29,8 @@ Saragiih, R. A., Surya, S., Syahrozi, H., & Gunawan, I. (Tidak terdapat tahun te
 
 Rahmatuloh, M., Kalyana, A. F., & Kusumah, P. P. (2024). Sistem ERP Modul Persediaan dengan Menggunakan Metode LIFO (Last In First Out) Berbasis Web (Studi Kasus: Distro Insulting Arrogant).
 
+# DESAIN SISTEM DAN IMPLEMENTASI 
+
+<img width="1024" height="1536" alt="ChatGPT Image 15 Apr 2026, 19 55 16" src="https://github.com/user-attachments/assets/37444471-69fc-421c-b8a0-f012a7fff8b8" />
+
+
