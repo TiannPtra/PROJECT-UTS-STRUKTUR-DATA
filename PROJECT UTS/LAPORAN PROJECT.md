@@ -100,5 +100,18 @@ Cara Kerja: Indeks [-1] merujuk pada elemen terakhir dalam Array. Fungsi ini han
 
 Penerapan Display pada kode tersebut berfungsi untuk memvisualisasikan seluruh isi Array riwayat secara transparan kepada pengguna. Operasi ini bekerja dengan melakukan Iterasi atau perulangan melalui fungsi enumerate(self.stack, 1), yang secara sistematis menelusuri elemen dari indeks awal hingga indeks terakhir (elemen teratas). Dalam laporan, bagian ini menunjukkan kemampuan program untuk membongkar tumpukan data dan menyajikannya dalam format daftar bernomor tanpa mengubah struktur asli Stack tersebut. Hal ini membuktikan bahwa meskipun Stack adalah struktur data akses terbatas (LIFO), seluruh elemen di dalam Array tetap dapat diakses untuk keperluan pelaporan atau pemeriksaan riwayat secara kronologis.
 
+# KESIMPULAN
+
+Berikut kesimpulan dari laporan tersebut:
+
+**Kesimpulan:**
+
+Berdasarkan hasil perancangan dan implementasi program, dapat disimpulkan bahwa struktur data **stack** dengan konsep **LIFO (Last In First Out)** sangat efektif digunakan untuk mengelola riwayat halaman web. Program yang dibuat mampu menjalankan fungsi utama seperti membuka halaman (push), kembali ke halaman sebelumnya (pop/undo), melihat halaman saat ini (peek), serta keluar dari program (exit) dengan baik dan terstruktur.
+
+Penggunaan array (list Python) sebagai dasar implementasi stack terbukti sederhana namun efisien dalam mengelola data secara dinamis. Setiap operasi pada stack berjalan sesuai dengan prinsip LIFO, sehingga halaman terakhir yang dibuka akan menjadi yang pertama diakses kembali saat pengguna melakukan undo.
+
+Selain itu, program juga mampu menangani kondisi khusus seperti stack kosong dengan memberikan respon yang sesuai. Dengan adanya fitur tambahan seperti display, pengguna dapat melihat seluruh riwayat halaman tanpa mengubah isi stack.
+
+Secara keseluruhan, implementasi ini menunjukkan bahwa stack merupakan solusi yang tepat dan praktis untuk kasus pengelolaan riwayat navigasi, khususnya dalam aplikasi sederhana seperti simulasi browser.
 
 
