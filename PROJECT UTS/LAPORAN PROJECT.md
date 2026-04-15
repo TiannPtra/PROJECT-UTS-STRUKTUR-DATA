@@ -31,6 +31,7 @@ Rahmatuloh, M., Kalyana, A. F., & Kusumah, P. P. (2024). Sistem ERP Modul Persed
 
 # DESAIN SISTEM DAN IMPLEMENTASI 
 
-<img width="1024" height="1536" alt="ChatGPT Image 15 Apr 2026, 19 55 16" src="https://github.com/user-attachments/assets/37444471-69fc-421c-b8a0-f012a7fff8b8" />
+<img width="857" height="1180" alt="ChatGPT Image 15 Apr 2026, 19 55 16" src="https://github.com/user-attachments/assets/adae17cc-ed72-4a62-b7cb-2e4cb3784665" />
+
 
 
