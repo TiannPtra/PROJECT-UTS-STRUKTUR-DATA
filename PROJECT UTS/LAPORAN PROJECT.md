@@ -1,5 +1,15 @@
 ## LAPORAN-PROJECT-UTS-STRUKTUR-DATA
 
+**Mata Kuliah:** Struktur Data
+**Semester:** 2025/2026
+**Jenis Tugas:** Tugas Kelompok
+**Tema:** Penerapan Stack menggunakann Array
+
+# IDENTITAS KELOMPOK
+1. I Gede Winasa Edy Purnama | NIM: [2501010082] | Akun Github: [winasagntgbgt]
+2. I Kadek Dwi Andika | NIM: [2501010085] | Akun Github: [dwiandika15]
+3. Kristian Putra Santosa | [2501010348] | Akun Github: [TiannPtra]
+
 # RUMUSAN MASALAH
 1. Bagaimana cara mengimplementasikan struktur data stack untuk menyimpan riwayat halaman web yang telah dibuka?
 2. Bagaimana cara kerja fitur undo (kembali ke halaman sebelumnya) menggunakan stack?
