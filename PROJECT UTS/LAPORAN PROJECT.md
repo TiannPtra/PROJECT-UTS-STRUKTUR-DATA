@@ -1,8 +1,5 @@
 # LAPORAN-PROJECT-UTS-STRUKTUR-DATA
-1. Mata Kuliah: Struktur Data
-2. Semester: 2025/2026
-3. Jenis Tugas: Tugas Kelompok
-4. Tema: Penerapan Stack menggunakann Array
+Penerapan Stack Menggunakann Array
 
 # IDENTITAS KELOMPOK
 1. I Gede Winasa Edy Purnama | NIM: [2501010082] | Akun Github: [winasagntgbgt]
