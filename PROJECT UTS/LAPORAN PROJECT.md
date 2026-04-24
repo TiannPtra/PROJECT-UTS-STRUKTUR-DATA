@@ -120,4 +120,7 @@ Selain itu, program juga mampu menangani kondisi khusus seperti stack kosong den
 
 Secara keseluruhan, implementasi ini menunjukkan bahwa stack merupakan solusi yang tepat dan praktis untuk kasus pengelolaan riwayat navigasi, khususnya dalam aplikasi sederhana seperti simulasi browser.
 
+# link ppt
+https://canva.link/7nf24k7z2inytxh
+
 
